@@ -1,0 +1,26 @@
+Script started on Sun 07 Jun 2020 12:28:21 AM WIB
+samratu.maharani@badak:~$ PS1="$ "
+$ echo $GitHubUser
+
+$ echo $PSTAMP
+TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
+$ eval $PSTAMP
+200607-002924-713f-samratu.maharani/>
+$ PS1="\$(eval \$PSTAMP)"
+200607-002935-1d9e-samratu.maharani/> date
+Sun Jun  7 00:31:08 WIB 2020
+200607-003108-0c4b-samratu.maharani/> gpg2 --list-keys
+/home/fasilkom/mahasiswa/s/samratu.maharani/.gnupg/pubring.gpg
+--------------------------------------------------------------
+pub   2048R/7D7735E8 2020-02-24 [expires: 2021-02-23]
+uid       [ultimate] Samratu Maharani (W03-log OS201 A 1806191534 samratumaharani Samratu Maharani) <samratumaharani@gmail.com>
+sub   2048R/782D2EA2 2020-02-24 [expires: 2021-02-23]
+
+pub   4096R/67DF6DDE 2020-02-13 [expires: 2021-02-12]
+uid       [ unknown] Operating Systems (OS) <operatingsystems@vlsm.org>
+sub   4096R/44170902 2020-02-13 [expires: 2021-02-12]
+
+200607-003123-6adc-samratu.maharani/> exit
+exit
+
+Script done on Sun 07 Jun 2020 12:31:35 AM WIB
