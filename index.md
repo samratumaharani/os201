@@ -9,4 +9,4 @@ Selamat datang di OS201. Halaman ini menjawab beberapa pertanyaan mengenai :
 
 ### Isi Website
 1. [Home](https://samratumaharani.github.io/os201/).
-2. [Kumpulan URL Sistem Operasi](https://samratu.maharani.github.io/os201/kumpulanURL).
+2. [Kumpulan URL Sistem Operasi](https://samratu.maharani.github.io/os201/URLs).
