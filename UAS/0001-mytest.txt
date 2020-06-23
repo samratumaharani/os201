@@ -1,4 +1,4 @@
-Script started on Tue 09 Jun 2020 12:40:55 AM WIB
+cript started on Tue 09 Jun 2020 12:40:55 AM WIB
 samratu.maharani@badak:~$ PS1="$ "
 $ echo $GitHubUser
 samratumaharani
