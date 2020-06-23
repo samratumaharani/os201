@@ -1,35 +1,35 @@
 Script started on Tue 09 Jun 2020 02:44:42 AM WIB
-samratu.maharani@badak:~/UAS$ PS1="$ "
+]0;samratu.maharani@badak: ~/UASsamratu.maharani@badak:~/UAS$ PS1="$ "
 $ echo $GitHubUser
 samratumaharani
 $ echo $PSTAMP
 TMP1="$(date +%y%m%d-%H%M%S)"; TMP2="$(echo $TMP1-$GitHubUser-${PWD##*/}|sha1sum|cut -c1-4)"; echo "$TMP1-$TMP2-${PWD##*/}/> ";
 $ eval $PSTAMP
-200609-024536-c5ff-UAS/>
+200609-024536-c5ff-UAS/> 
 $ PS1="\$(eval \$PSTAMP)"
 200609-024554-81f7-UAS/> echo -e $CEKSAYA
-samratumaharani ZCZCSCRIPTSTART 200609-004055 samratumaharani
- samratumaharani samratumaharani 200609-004459-c0d6-samratu.maharani/ 200609-004459 SEQOK SUMOK c0d681cc
- samratumaharani samratumaharani 200609-004508-b958-samratu.maharani/ 200609-004508 SEQOK SUMOK b958e3c6
- samratumaharani samratumaharani 200609-004539-720b-samratu.maharani/ 200609-004539 SEQOK SUMOK 720b8975
- samratumaharani samratumaharani 200609-004559-56b9-samratu.maharani/ 200609-004559 SEQOK SUMOK 56b9f195
- samratumaharani ZCZCSCRIPTSTOP 200609-004611 SEQOK
+samratumaharani ZCZCSCRIPTSTART 200609-004055 samratumaharani 
+ samratumaharani samratumaharani 200609-004459-c0d6-samratu.maharani/ 200609-004459 SEQOK SUMOK c0d681cc 
+ samratumaharani samratumaharani 200609-004508-b958-samratu.maharani/ 200609-004508 SEQOK SUMOK b958e3c6 
+ samratumaharani samratumaharani 200609-004539-720b-samratu.maharani/ 200609-004539 SEQOK SUMOK 720b8975 
+ samratumaharani samratumaharani 200609-004559-56b9-samratu.maharani/ 200609-004559 SEQOK SUMOK 56b9f195 
+ samratumaharani ZCZCSCRIPTSTOP 200609-004611 SEQOK 
 
 200609-024604-2f39-UAS/> echo -e $CEKSEBELA1
-samratumaharani ZCZCSCRIPTSTART 200530-204703 samuelsamosir27
- samratumaharani samuelsamosir27 200530-204836-fafe-UAS/ 200530-204836 SEQOK SUMOK fafe1aab
- samratumaharani samuelsamosir27 200530-204845-2001-UAS/ 200530-204845 SEQOK SUMOK 2001dcef
- samratumaharani samuelsamosir27 200530-204850-2429-UAS/ 200530-204850 SEQOK SUMOK 24297f47
- samratumaharani samuelsamosir27 200530-204905-afaf-UAS/ 200530-204905 SEQOK SUMOK afaf2f74
- samratumaharani ZCZCSCRIPTSTOP 200530-204914 SEQOK
+samratumaharani ZCZCSCRIPTSTART 200530-204703 samuelsamosir27 
+ samratumaharani samuelsamosir27 200530-204836-fafe-UAS/ 200530-204836 SEQOK SUMOK fafe1aab 
+ samratumaharani samuelsamosir27 200530-204845-2001-UAS/ 200530-204845 SEQOK SUMOK 2001dcef 
+ samratumaharani samuelsamosir27 200530-204850-2429-UAS/ 200530-204850 SEQOK SUMOK 24297f47 
+ samratumaharani samuelsamosir27 200530-204905-afaf-UAS/ 200530-204905 SEQOK SUMOK afaf2f74 
+ samratumaharani ZCZCSCRIPTSTOP 200530-204914 SEQOK 
 
 200609-024615-d635-UAS/> echo -e $CEKSEBELA2
-samratumaharani ZCZCSCRIPTSTART 200601-114911 shanniadm
- samratumaharani shanniadm 200601-114934-0eec-shannia.dwi/ 200601-114934 SEQOK SUMOK 0eecb46d
- samratumaharani shanniadm 200601-114940-ce7c-shannia.dwi/ 200601-114940 SEQOK SUMOK ce7cdf3a
- samratumaharani shanniadm 200601-114952-fe4e-shannia.dwi/ 200601-114952 SEQOK SUMOK fe4e5d5f
- samratumaharani shanniadm 200601-115000-4d49-shannia.dwi/ 200601-115000 SEQOK SUMOK 4d4949d3
- samratumaharani ZCZCSCRIPTSTOP 200601-115008 SEQOK
+samratumaharani ZCZCSCRIPTSTART 200601-114911 shanniadm 
+ samratumaharani shanniadm 200601-114934-0eec-shannia.dwi/ 200601-114934 SEQOK SUMOK 0eecb46d 
+ samratumaharani shanniadm 200601-114940-ce7c-shannia.dwi/ 200601-114940 SEQOK SUMOK ce7cdf3a 
+ samratumaharani shanniadm 200601-114952-fe4e-shannia.dwi/ 200601-114952 SEQOK SUMOK fe4e5d5f 
+ samratumaharani shanniadm 200601-115000-4d49-shannia.dwi/ 200601-115000 SEQOK SUMOK 4d4949d3 
+ samratumaharani ZCZCSCRIPTSTOP 200601-115008 SEQOK 
 
 200609-024623-1bfd-UAS/> exit
 exit
